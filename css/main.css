@@ -130,6 +130,8 @@ section {
     font-size: 13px;
     color: #fff;
 }
+
+
 @media (min-width: 992px){
     .pt-lg-0, .py-lg-0 {
         padding-top: 0!important;

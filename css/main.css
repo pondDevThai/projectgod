@@ -1,0 +1,93 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+.bg-dark {
+    background-color: #000000!important;
+}
+#hero {
+    width: 100%;
+    height: 75vh;
+    background: url(https://bootstrapmade.com/demo/themes/Amoeba/assets/img/hero-background.jpg) top center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: -80px;
+}
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 56px;
+    color: #fff;
+}
+#hero h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+#hero .btn-get-started {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px 10px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#main {
+    margin-top: 80px;
+}
+section {
+    padding: 60px 0;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 992px){
+    .order-lg-2 {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 992px){
+    .pt-lg-0, .py-lg-0 {
+        padding-top: 0!important;
+    }
+}
+@media (min-width: 375px) { 
+    #hero .hero-container {
+        padding-top: 0px;
+    }
+    .img-fluid {
+        max-width: 50%;
+        height: auto;
+    }
+}

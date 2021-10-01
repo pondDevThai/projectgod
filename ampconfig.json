@@ -1,0 +1,18 @@
+{
+  "dataServiceGeneratorVersion": "0.9.0",
+  "appInfo": {
+    "name": "My app",
+    "description": "",
+    "version": "xdra01hg",
+    "id": "cku8kjm9u11902751bs62yicx2k3",
+    "url": "https://app.amplication.com/cku8kjm9u11902751bs62yicx2k3",
+    "settings": {
+      "dbHost": "localhost",
+      "dbName": "",
+      "dbPassword": "admin",
+      "dbPort": 5432,
+      "dbUser": "admin",
+      "appId": "cku8kjm9u11902751bs62yicx2k3"
+    }
+  }
+}
